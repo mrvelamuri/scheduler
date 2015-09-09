@@ -1,0 +1,19 @@
+<table width='100%' cellpadding='0' cellspacing='0' border='0'>
+   <tr valign='top'>
+     <td colspan='2' rowspan='2' bgcolor='001E4C'><a href='http://empscheduler.sourceforge.net'><img src='images/empschedule.gif' alt='Employee Scheduler' width='237' height='35' border='0' align='absmiddle'></a></td>
+     <td width='24%' rowspan='2' align='right' bgcolor='001E4C'><img src='images/blue_curve.gif' width='21' height='35'></td>
+     <td width='39%' height='22' bgcolor='2F567C' align='right'>&nbsp; </td>
+   </tr><tr>
+     <td bgcolor='001E4C'><img src='images/blue_bar.gif' width='1' height='4'></td>
+   </tr><tr valign='top'>
+     <td colspan='4' height='2'><img src='images/bar_1.gif' width='100%' height='2'></td>
+   </tr><tr valign='top'>
+     <td colspan='2' bgcolor='C5AF7D' height='26' valign='bottom'> &nbsp;&nbsp;<a href='<?php print $COMPANY_URL;?>' class='profile'><?php print $COMPANY_NAME;?></a></td>
+     <td colspan='2' align='right' valign='bottom' bgcolor='C5AF7D'><nobr><img src='images/dk_square.gif' width='5' height='5' align='absmiddle'>
+       <a href='es_help.php?page=<?php print $_SERVER["SCRIPT_NAME"]?>' class='profile' target="help"><?php print $es_lang["help"];?></a>&nbsp; <img src='images/dk_square.gif' width='5' height='5' align='absmiddle'>
+       <a href='<?php print $_SERVER["PHP_SELF"]."?".$_SERVER["QUERY_STRING"]."&view=print"; ?>' class='profile'><?php print $es_lang["printer_friendly"];?></a>&nbsp; <img src='images/dk_square.gif' width='5' height='5' align='absmiddle'>
+       <a href='es_logout.php' class='profile'><?php print $es_lang["logout"]; ?></a> &nbsp;</nobr>
+   </td>
+   </tr><tr valign='top'>
+     <td colspan='4'><img src='images/bar_2.gif' width='100%' height='2'></td></tr>
+</table>

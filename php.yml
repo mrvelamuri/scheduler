@@ -1,0 +1,7 @@
+---
+- hosts: php
+  remote_user: root
+
+  tasks:
+  
+   - shell: cp -R /var/lib/jenkins/jobs/scheduler/workspace/*.* /opt/lampp/htdocs/prod/scheduler/

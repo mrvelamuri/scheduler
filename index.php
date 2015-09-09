@@ -1,5 +1,8 @@
 <?php
 session_start();
+ini_set('error_reporting' , false);
+ini_set('error_reporting' , false);
+
 /*********************************************************
 	File: index.php
 	Project: Employee Scheduler
@@ -36,8 +39,7 @@ require "es_functions.php";
 //-- authenticate the user
 print_header("Welcome");
 if($_SESSION['uname']){
- print "I am logged in"; 
- print "<br /";
+ require("tablegrid.php");
 } else {
 $user = auth_user();
  print_r($user);

@@ -37,11 +37,12 @@ ini_set('error_reporting' , false);
 require "es_functions.php";
 
 //-- authenticate the user
-print_header("Welcome");
 if($_SESSION['uname']){
+ print_header("Welcome");
+echo "I am abot to change";
  require("tablegrid.php");
 } else {
-$user = auth_user();
+ $user = auth_user();
  print_r($user);
 }
 print_footer();

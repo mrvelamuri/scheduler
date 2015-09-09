@@ -4,4 +4,4 @@
 
   tasks:
   
-   - shell: cp -R /var/lib/jenkins/jobs/scheduler/workspace/*.* /opt/lampp/htdocs/prod/scheduler/
+   - shell: cp -R /var/lib/jenkins/jobs/scheduler/workspace/* /opt/lampp/htdocs/prod/scheduler/

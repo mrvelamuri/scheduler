@@ -37,6 +37,7 @@ require "es_functions.php";
 print_header("Welcome");
 if($_SESSION['uname']){
  print "I am logged in"; 
+ print "<br /";
 } else {
 $user = auth_user();
  print_r($user);
